@@ -22,7 +22,7 @@ def mainGame():
     playerMinVelY = -8
     playerAccY = 1
     playerFlapAccv = -8 # velocity while flapping
-    playerFlapped = False # It is true only when the bird is flapping
+    playerFlapped = False # It is true only when the bug is flapping
     while True:
         for event in pygame.event.get():
             if event.type == QUIT or (event.type == KEYDOWN and event.key == K_ESCAPE):
